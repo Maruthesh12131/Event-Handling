@@ -1,0 +1,38 @@
+.home-table{
+    margin: 15px auto;
+     max-width: 120%;
+    /*overflow-x: auto;
+    overflow-y: auto; */
+}
+table{
+    width:100%;
+    border-collapse: collapse; 
+    border: 5px solid white;
+}
+thead,tbody{
+    border: 2px solid white;
+}
+th,td{
+    border: 1px solid wheat;
+}
+
+.home-add-event{
+    margin: 25px;
+    display: flex;
+}
+.home-new-event{
+    padding-right: 150px;
+    display: flex;
+    text-align: justify;
+    justify-content: flex-start;
+    flex-direction: row;
+    width:350px;
+}
+button{
+    margin: 15px;
+    height: min-content;
+}
+label{
+    margin-top: 20px;
+    margin-right: 10px;
+}
