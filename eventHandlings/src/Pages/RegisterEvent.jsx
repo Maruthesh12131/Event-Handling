@@ -1,6 +1,7 @@
 import { useEffect,useState } from "react";
 import axios from "axios";
 import { useNavigate, useParams } from "react-router-dom";
+import "../Css/registerPage.css"
 const Register = () =>{
     const {eventId} = useParams();
     const[ticket,setTicket] = useState({
@@ -19,7 +20,7 @@ const Register = () =>{
     }
     return(
         <div>
-            <div>
+            <div className="register-event-page">
                 <label>Name: </label>
                 <input type="text" value = {ticket.personName} name = "personName" onChange={handleChange}/>
                 <label> Age: </label>
